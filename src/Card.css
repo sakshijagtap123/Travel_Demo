@@ -1,0 +1,81 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(90deg, #c2ff61, #3cff00, #e75123, #f55ff5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  .card:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+
+  }
+  
+  .card-image {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  /* Hover effect for the image */
+  .card-image:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-content h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+  }
+  
+  .card-price {
+    color: #888;
+    font-size: 1.1em;
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
